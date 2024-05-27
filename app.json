@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "lets_shop",
-    "slug": "lets_shop",
+    "name": "MenuPlex",
+    "slug": "MenuPlex",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.azharbhat.lets_shop"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c6294364-4960-4b38-bacf-3668dc2da122"
+      }
     }
   }
 }
